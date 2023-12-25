@@ -201,7 +201,7 @@ Alpine.data("ChallengeBoard", () => ({
 
   getChallenges(category) {
     let challenges = this.challenges;
-
+    // console.log(challenges);
     if (category !== null) {
       challenges = this.challenges.filter(challenge => challenge.category === category);
     }
@@ -217,7 +217,6 @@ Alpine.data("ChallengeBoard", () => ({
       console.log("Error running challenge_order function");
       console.log(error);
     }
-
     return challenges;
   },
 

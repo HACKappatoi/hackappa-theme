@@ -33,6 +33,12 @@
             <h3 class="challenge-value text-center">
               {{ challenge.value }}
             </h3>
+            {% if challenge.author is defined %}
+            <h4 class="challenge-value text-center">
+              @{{ challenge.author }}
+            </h4>
+            {% endif %}
+            
 
 
             {% if tags %}

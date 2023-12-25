@@ -1,6 +1,7 @@
 /* Challenge styles
 -------------------------------------------------- */
 
+
 .challenge-desc {
   overflow-wrap: anywhere;
 
@@ -9,12 +10,48 @@
   }
 }
 
-.challenge-button {
-  box-shadow: 3px 3px 3px var(--bs-secondary);
+
+.challenge-button{
+  background-color: var(--bs-white) !important;
+  color: var(--bs-gray-dark) !important;
+  text-align:left;
+  border-width: 1px 1px 1px 4px!important;
+  border-style: solid !important;
+  border-color: var(--bs-warning) !important;
 }
 
-.challenge-solved {
-  background-color: #37d63e !important;
-  opacity: 0.6;
-  border: none;
+.challenge-button>div>span.status {
+  background-color: var(--bs-warning) !important;
+  color: var(--bs-white);
 }
+
+.challenge-button>div>span.status:after {
+  content:"INCOMPLETED";
+  color: var(--bs-gray-dark);
+}
+
+
+.challenge-solved{
+  //background-color: #565656 !important;
+  opacity: 0.6;
+  border-width: 1px 1px 1px 4px!important;
+  border-style: solid !important;
+  border-color: var(--bs-success) !important;
+}
+
+.challenge-solved>div>span.status {
+  background-color: var(--bs-success) !important;
+}
+.challenge-solved>div>span.status:after {
+  content:"COMPLETED"!important;
+  color: var(--bs-gray-dark);
+}
+
+
+.text-muted{
+  color: rgba(47, 47, 47, 0.75) !important;
+}
+
+// .sticky-offset {
+//   top: 56px;
+// }

@@ -1,5 +1,20 @@
+
 @use "bootstrap/scss/bootstrap" as * with (
-  $info: #5c728f
+  $white: #fcf6fb,
+
+  $theme-colors: (
+      "light":      #dedcea,
+      "dark":       #130710,
+      "primary":    #552849,
+      "secondary":  #92d995,
+      "info":       #5ac095,
+      "accent1":    #71cdc3,
+      "accent2":    #4ce6cf,
+      "accent3":    #60968c,
+      "success":    #24c284,
+      "warning":    #e0d71e,
+      "danger":     #f03f0f,
+  ),
 );
 
 @use "includes/components/table";
@@ -57,21 +72,21 @@ select.form-control {
 
 .input-filled-valid {
   background-color: transparent !important;
-  border-color: #a3d39c;
-  box-shadow: 0 0 0 0.1rem #a3d39c;
-  transition: background-color 0.3s, border-color 0.3s;
+  // border-color: #a3d39c;
+  // box-shadow: 0 0 0 0.1rem #a3d39c;
+  // transition: background-color 0.3s, border-color 0.3s;
 }
 
 .input-filled-invalid {
   background-color: transparent !important;
-  border-color: #d46767;
-  box-shadow: 0 0 0 0.1rem #d46767;
-  transition: background-color 0.3s, border-color 0.3s;
+  // border-color: #d46767;
+  // box-shadow: 0 0 0 0.1rem #d46767;
+  // transition: background-color 0.3s, border-color 0.3s;
 }
 
 .form-control {
   padding: 0.8em !important;
-  background: #f0f0f0;
+  // background: #f0f0f0;
   color: #aaa;
   /* Behavior changed in Bootstrap v4.1.3. See https://github.com/twbs/bootstrap/issues/27629 */
   height: auto !important;
@@ -79,7 +94,9 @@ select.form-control {
 
 .form-control:focus {
   background-color: transparent;
-  border-color: #a3d39c;
-  box-shadow: 0 0 0 0.1rem #a3d39c;
-  transition: background-color 0.3s, border-color 0.3s;
+  // border-color: #a3d39c;
+  // box-shadow: 0 0 0 0.1rem #a3d39c;
+  // transition: background-color 0.3s, border-color 0.3s;
 }
+
+
