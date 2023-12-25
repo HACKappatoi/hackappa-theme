@@ -11,10 +11,23 @@
 
 .challenge-button {
   box-shadow: 3px 3px 3px var(--bs-secondary);
+  text-align: start !important;
 }
 
-.challenge-solved {
-  background-color: #37d63e !important;
-  opacity: 0.6;
-  border: none;
+.challenge-button{
+  border: #e15b29 !important;
+  border-style: solid !important;
+  border-width: 0 0 0 5px !important;
+  background-color: #212529;
+  
 }
+
+.challenge-solved{
+  opacity: 0.6 !important;
+  border: #37d63e !important;
+  border-style: solid !important;
+  border-width: 0 0 0 5px !important;
+  
+}
+
+

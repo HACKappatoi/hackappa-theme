@@ -1,11 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <div class="jumbotron">
+  <div class="jumbotron" id="jumboTitle">
     <div class="container">
-      <h1>
+      <h1 class="pb-4">
         {% trans %}Challenges{% endtrans %}
       </h1>
+      {% include "components/countdown.html" %}
+
+      
     </div>
   </div>
 
