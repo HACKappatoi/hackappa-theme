@@ -10,48 +10,25 @@
   }
 }
 
+.challenge-button {
+  box-shadow: 3px 3px 3px var(--bs-secondary);
+  text-align: start !important;
+}
 
 .challenge-button{
-  background-color: var(--bs-white) !important;
-  color: var(--bs-gray-dark) !important;
-  text-align:left;
-  border-width: 1px 1px 1px 4px!important;
+  border: #e15b29 !important;
   border-style: solid !important;
-  border-color: var(--bs-warning) !important;
+  border-width: 0 0 0 5px !important;
+  background-color: #212529;
+  
 }
-
-.challenge-button>div>span.status {
-  background-color: var(--bs-warning) !important;
-  color: var(--bs-white);
-}
-
-.challenge-button>div>span.status:after {
-  content:"INCOMPLETED";
-  color: var(--bs-gray-dark);
-}
-
 
 .challenge-solved{
-  //background-color: #565656 !important;
-  opacity: 0.6;
-  border-width: 1px 1px 1px 4px!important;
+  opacity: 0.6 !important;
+  border: #37d63e !important;
   border-style: solid !important;
-  border-color: var(--bs-success) !important;
-}
-
-.challenge-solved>div>span.status {
-  background-color: var(--bs-success) !important;
-}
-.challenge-solved>div>span.status:after {
-  content:"COMPLETED"!important;
-  color: var(--bs-gray-dark);
+  border-width: 0 0 0 5px !important;
+  
 }
 
 
-.text-muted{
-  color: rgba(47, 47, 47, 0.75) !important;
-}
-
-// .sticky-offset {
-//   top: 56px;
-// }

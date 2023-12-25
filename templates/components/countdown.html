@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col-2"></div>
+    <div class="col">
+      {% if getTimeWatchData %}
+        {% if getTimeWatchData() %}
+        {% set data = getTimeWatchData() %}
+          <!-- <h3 id="headline">{{data["text"]}}</h3> -->
+          <div id="countdown" class="card shadow mb-2 bg-white rounded">
+            <div class="card-body">
+              <h5 class="card-title">{{data["text"]}}</h5>
+              <ul>
+                <li><span id="days">{{data["days"]}}</span>Days</li>
+                <li><span id="hours">{{data["hour"]}}</span>Hours</li>
+                <li><span id="minutes">{{data["minutes"]}}</span>Minutes</li>
+                <li><span id="seconds">{{data["seconds"]}}</span>Seconds</li>
+              </ul>
+            </div>
+          
+            
+          </div>
+        {% endif %}
+      {% endif %}
+    </div>
+    <div class="col-2"></div>
+
+  </div>
