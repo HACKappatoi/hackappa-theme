@@ -10,25 +10,40 @@
   }
 }
 
-.challenge-button {
-  box-shadow: 3px 3px 3px var(--bs-secondary);
-  text-align: start !important;
-}
-
 .challenge-button{
-  border: #e15b29 !important;
+  color: #fcf6fb;
+  text-align: start !important;
+  border: #e0d71e !important;
   border-style: solid !important;
   border-width: 0 0 0 5px !important;
-  background-color: #212529;
+  background-color: #202428;
   
 }
 
 .challenge-solved{
   opacity: 0.6 !important;
-  border: #37d63e !important;
+  border: #24c284 !important;
   border-style: solid !important;
   border-width: 0 0 0 5px !important;
   
+}
+
+.challenge-button>div>span.status {
+  background-color: var(--bs-warning) !important;
+  color: var(--bs-white);
+}
+
+.challenge-button>div>span.status:after {
+  content:"INCOMPLETED";
+  color: var(--bs-gray-dark);
+}
+
+.challenge-solved>div>span.status {
+  background-color: var(--bs-success) !important;
+}
+.challenge-solved>div>span.status:after {
+  content:"COMPLETED"!important;
+  color: var(--bs-gray-dark);
 }
 
 
