@@ -46,4 +46,26 @@
   color: var(--bs-gray-dark);
 }
 
+/* Challenge card modal
+-------------------------------------------------- */
 
+.tab-chall .active{
+  background-color: #fcf6fb !important;
+}
+
+.challenge-modal-content{
+  background-color: #ffffff00 !important;
+}
+
+.challenge-modal{
+  padding: 0 !important;
+}
+
+.challenge-tab-content{
+  background-color: #fcf6fb;
+  border-radius: 0 5px 5px 5px;
+}
+
+.challenge-tabs{
+  border-bottom: none !important;
+}

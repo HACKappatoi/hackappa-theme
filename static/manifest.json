@@ -38,12 +38,12 @@
     ]
   },
   "assets/js/scoreboard.js": {
-    "file": "assets/scoreboard.a5e2311c.js",
+    "file": "assets/scoreboard.132d4d12.js",
     "src": "assets/js/scoreboard.js",
     "isEntry": true,
     "imports": [
       "assets/js/index.js",
-      "_index.a9c69653.js",
+      "_index.05bdd108.js",
       "_echarts.15ff2617.js"
     ]
   },
@@ -56,25 +56,25 @@
     ]
   },
   "assets/js/teams/public.js": {
-    "file": "assets/teams_public.cabc940d.js",
+    "file": "assets/teams_public.4b38af1b.js",
     "src": "assets/js/teams/public.js",
     "isEntry": true,
     "imports": [
       "assets/js/index.js",
-      "_userscore.59bfc546.js",
-      "_index.a9c69653.js",
+      "_userscore.279b9a43.js",
+      "_index.05bdd108.js",
       "_echarts.15ff2617.js"
     ]
   },
   "assets/js/teams/private.js": {
-    "file": "assets/teams_private.eae938e0.js",
+    "file": "assets/teams_private.6f089a35.js",
     "src": "assets/js/teams/private.js",
     "isEntry": true,
     "imports": [
       "assets/js/index.js",
       "_clipboard.81c256ef.js",
-      "_userscore.59bfc546.js",
-      "_index.a9c69653.js",
+      "_userscore.279b9a43.js",
+      "_index.05bdd108.js",
       "_echarts.15ff2617.js"
     ]
   },
@@ -87,24 +87,24 @@
     ]
   },
   "assets/js/users/public.js": {
-    "file": "assets/users_public.34886e2b.js",
+    "file": "assets/users_public.748dbaa1.js",
     "src": "assets/js/users/public.js",
     "isEntry": true,
     "imports": [
       "assets/js/index.js",
-      "_userscore.59bfc546.js",
-      "_index.a9c69653.js",
+      "_userscore.279b9a43.js",
+      "_index.05bdd108.js",
       "_echarts.15ff2617.js"
     ]
   },
   "assets/js/users/private.js": {
-    "file": "assets/users_private.8bf0b5b5.js",
+    "file": "assets/users_private.b4ac8ca9.js",
     "src": "assets/js/users/private.js",
     "isEntry": true,
     "imports": [
       "assets/js/index.js",
-      "_userscore.59bfc546.js",
-      "_index.a9c69653.js",
+      "_userscore.279b9a43.js",
+      "_index.05bdd108.js",
       "_echarts.15ff2617.js"
     ]
   },
@@ -125,22 +125,22 @@
       "assets/js/index.js"
     ]
   },
-  "_index.a9c69653.js": {
-    "file": "assets/index.a9c69653.js",
+  "_index.05bdd108.js": {
+    "file": "assets/index.05bdd108.js",
     "imports": [
       "assets/js/index.js",
       "_echarts.15ff2617.js"
     ]
   },
-  "_userscore.59bfc546.js": {
-    "file": "assets/userscore.59bfc546.js",
+  "_userscore.279b9a43.js": {
+    "file": "assets/userscore.279b9a43.js",
     "imports": [
       "assets/js/index.js",
-      "_index.a9c69653.js"
+      "_index.05bdd108.js"
     ]
   },
   "assets/scss/main.scss": {
-    "file": "assets/main.1eed8c87.css",
+    "file": "assets/main.6551f0b1.css",
     "src": "assets/scss/main.scss",
     "isEntry": true
   }

@@ -1,20 +1,22 @@
 <div :class="getStyles()" role="document" x-data="Challenge" x-init="id = {{ challenge.id }}">
-  <div class="modal-content">
-    <div class="modal-body py-4 px-4 px-sm-5">
+  <div class="modal-content challenge-modal-content">
+    <div class="modal-body challenge-modal">
 
       <div>
-        <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="btn btn-primary float-end" data-bs-dismiss="modal" aria-label="Close">
+          <i class="bi bi-x-lg"></i>
+        </button>
 
-        <ul class="nav nav-tabs">
-          <li class="nav-item">
-            <a class="nav-link active" data-bs-target="#challenge" @click="showChallenge()">
+        <ul class="nav nav-tabs challenge-tabs">
+          <li class="nav-item bg-primary rounded-top">
+            <a class="nav-link tab-chall active" data-bs-target="#challenge" @click="showChallenge()">
               {% trans %}Challenge{% endtrans %}
             </a>
           </li>
 
           {% block solves %}
-            <li class="nav-item">
-              <a class="nav-link challenge-solves" data-bs-target="#solves" @click="showSolves()">
+            <li class="nav-item bg-primary rounded-top">
+              <a class="nav-link tab-chall challenge-solves" data-bs-target="#solves" @click="showSolves()">
                 {% if solves != None %}
                   {{ ngettext("%(num)d Solve", "%(num)d Solves", solves) }}
                 {% endif %}
@@ -25,7 +27,7 @@
       </div>
 
       <div>
-        <div class="tab-content">
+        <div class="tab-content challenge-tab-content py-4 px-4 px-sm-5">
           <div role="tabpanel" class="tab-pane fade show active" id="challenge">
             <h2 class="challenge-name text-center pt-3">
               {{ challenge.name }}
